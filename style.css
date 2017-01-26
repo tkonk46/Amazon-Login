@@ -1,0 +1,111 @@
+*{
+  background-color: white;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+img{
+      display: block;
+      margin: auto;
+}
+
+h2{
+    font-weight:lighter;
+    margin-left: 20px;
+}
+
+div{
+      margin: 0 auto;
+      border: 2px solid gainsboro;
+      height: 90%;
+      width: 35%;
+      margin-bottom: 30px;
+}
+
+
+label{
+        display: block;
+        font-weight: bold;
+        font-size: .80em;
+        margin-left: 5%;
+        margin-top: 1.5em;
+
+}
+
+label a{
+          margin-left: 45%;
+          font-weight: lighter;
+}
+
+input{
+        border-radius: 4px;
+        width: 90%;
+        margin-left: 5%;
+        height: 25px;
+}
+
+input:focus{
+  outline: gold;
+  box-shadow: 0 0 5px gold;
+  border-color: gold;
+}
+
+a{
+    text-decoration: none;
+}
+#button{
+          border-radius:6px;
+          text-align: center;
+          background: linear-gradient(gold, #e6c300);
+          width: 90%;
+          margin-left: 5%;
+          margin-top: 1.5em;
+          margin-bottom: 25px;
+          height: 30px;
+          display: block;
+}
+
+legend{
+    text-align: center;
+    color: darkgrey;
+    font-size:.80em;
+    border-color:darkgrey;
+
+}
+
+fieldset{
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: gainsboro;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#createbutton{
+                border-radius: 6px;
+                text-align: center;
+                margin-bottom: 15px;
+                margin-top: 5px;
+                margin-left: -15px;
+
+                width: 108%;
+                height: 30px;
+                background: linear-gradient(whitesmoke, #c2c2a3);
+}
+
+hr{
+
+}
+
+nav{
+      text-align: center;
+}
+
+nav a{
+        text-decoration: none;
+        font-size: .80em;
+}
+
+footer{
+        text-align: center;
+}
